@@ -1,0 +1,20 @@
+{
+  "name": "cpq-monorepo",
+  "version": "1.0.0",
+  "author": "Steven_Wickers@unifirst.com",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "install:all": "pnpm install",
+    "build:packages": "pnpm -r --filter \"./packages/**\" run build",
+    "build:apps": "pnpm -r --filter \"./apps/**\" run build",
+    "build": "pnpm run build:packages",
+    "dev:cpq": "pnpm --filter cpq-app dev",
+    "dev:data": "pnpm --filter data-app dev"
+  },
+  "pnpm": {
+    "overrides": {
+      "esbuild": "0.27.2"
+    }
+  }
+}

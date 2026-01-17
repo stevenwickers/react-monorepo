@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "1",
+    "Brand": "TLAW_AND_TEAM",
+    "Category": "JERSEYS",
+    "Name": "100% Awesome JAGUARS Jersey",
+    "ProgramType": "OWNERSHIP",
+    "StyleCode": "0101",
+    "Variety": "Long Sleeve",
+    "Price": 300,
+    "IsAvailable": true,
+    "Description": "Buy It Now!"
+  },
+  {
+    "Id": "2",
+    "Brand": "TLAW_AND_TEAM",
+    "Category": "T-SHIRTS",
+    "Name": "100% cotton t-shirt",
+    "ProgramType": "OWNERSHIP",
+    "StyleCode": "0101",
+    "Variety": "Long Sleeve",
+    "Price": 30,
+    "IsAvailable": true,
+    "Description": "Buy It Now!"
+  },
+  {
+    "Id": "3",
+    "Brand": "TLAW_AND_TEAM",
+    "Category": "HATS",
+    "Name": "Jaguar Hat",
+    "ProgramType": "OWNERSHIP",
+    "StyleCode": "0101",
+    "Variety": "Hat",
+    "Price": 50,
+    "IsAvailable": true,
+    "Description": "Buy and wear It Now!"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "TableName": "Brand",
+    "Id": 1,
+    "Name": "Armorex COOL"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 2,
+    "Name": "Armorex FR"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 3,
+    "Name": "Blank"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 4,
+    "Name": "Breeze Weave"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 5,
+    "Name": "Bulwark FR"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 6,
+    "Name": "Bulwark FR iQ Series"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 7,
+    "Name": "Dickies"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 8,
+    "Name": "Fashion Poplin"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 9,
+    "Name": "MIMIX"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 10,
+    "Name": "Park Street"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 11,
+    "Name": "SimplySoft"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 12,
+    "Name": "SofTwill"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 13,
+    "Name": "Spotlite LX"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 14,
+    "Name": "Spotlite MV"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 15,
+    "Name": "UniFirst"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 16,
+    "Name": "UniSport"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 17,
+    "Name": "UniWear"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 18,
+    "Name": "UniWeave"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 19,
+    "Name": "WonderWink"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 20,
+    "Name": "Work Nmotion"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 21,
+    "Name": "Wrangler"
+  },
+  {
+    "TableName": "Brand",
+    "Id": 22,
+    "Name": "ZeroSkratch"
+  },
+  {
+    "TableName": "Category",
+    "Id": 1,
+    "Name": "Butcher Coats"
+  },
+  {
+    "TableName": "Category",
+    "Id": 2,
+    "Name": "Chef Uniforms"
+  },
+  {
+    "TableName": "Category",
+    "Id": 3,
+    "Name": "Coveralls"
+  },
+  {
+    "TableName": "Category",
+    "Id": 4,
+    "Name": "Flame Resistant"
+  },
+  {
+    "TableName": "Category",
+    "Id": 5,
+    "Name": "HACCP"
+  },
+  {
+    "TableName": "Category",
+    "Id": 6,
+    "Name": "High Visibility"
+  },
+  {
+    "TableName": "Category",
+    "Id": 7,
+    "Name": "Lab Coats"
+  },
+  {
+    "TableName": "Category",
+    "Id": 8,
+    "Name": "Outerwear"
+  },
+  {
+    "TableName": "Category",
+    "Id": 9,
+    "Name": "Pants"
+  },
+  {
+    "TableName": "Category",
+    "Id": 10,
+    "Name": "Scrubs"
+  },
+  {
+    "TableName": "Category",
+    "Id": 11,
+    "Name": "Shirts"
+  },
+  {
+    "TableName": "Category",
+    "Id": 12,
+    "Name": "Shorts"
+  },
+  {
+    "TableName": "Category",
+    "Id": 13,
+    "Name": "Women's"
+  },
+  {
+    "TableName": "Country",
+    "Id": 1,
+    "Name": "Canada"
+  },
+  {
+    "TableName": "Country",
+    "Id": 2,
+    "Name": "US"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 1,
+    "Name": "100% Cotton"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 2,
+    "Name": "100% FR Cotton"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 3,
+    "Name": "100% Nylon"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 4,
+    "Name": "100% Polyester"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 5,
+    "Name": "CXPÂ®"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 6,
+    "Name": "FR 88/12"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 7,
+    "Name": "FR Aramid Blend"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 9,
+    "Name": "FR Cotton"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 10,
+    "Name": "FR Cotton/Polyester Blend"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 11,
+    "Name": "FR Cotton/Spandex Blend"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 8,
+    "Name": "FR CXP®"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 12,
+    "Name": "FR Excel 100% Treated Cotton"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 13,
+    "Name": "FR Modacrylic/Lyocell/Aramid"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 15,
+    "Name": "FR Tecasafe® Plus"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 14,
+    "Name": "FR TECGENÂ®"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 16,
+    "Name": "FR TenCateÂ® Evolvâ„¢"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 17,
+    "Name": "Microfiber"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 18,
+    "Name": "NomexÂ®"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 19,
+    "Name": "Poly/Cotton/Carbon Blend"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 20,
+    "Name": "Polyester/Carbon Blend"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 21,
+    "Name": "Polyester/Cotton Blend"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 22,
+    "Name": "TecasafeÂ® Plus"
+  },
+  {
+    "TableName": "Fabric",
+    "Id": 23,
+    "Name": "UltraSoftÂ®"
+  },
+  {
+    "TableName": "Gender",
+    "Id": 1,
+    "Name": "Men's"
+  },
+  {
+    "TableName": "Gender",
+    "Id": 2,
+    "Name": "Unisex"
+  },
+  {
+    "TableName": "Gender",
+    "Id": 3,
+    "Name": "Women's"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 1,
+    "Name": "Agriculture & Farming"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 2,
+    "Name": "Automotive"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 3,
+    "Name": "Childcare Services"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 4,
+    "Name": "Contracting & Trades"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 5,
+    "Name": "Dental"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 6,
+    "Name": "Education & Municipalities"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 7,
+    "Name": "Energy & Utilities"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 8,
+    "Name": "Food Industry"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 9,
+    "Name": "Food Processing"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 10,
+    "Name": "Food Service"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 11,
+    "Name": "Health & Fitness"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 12,
+    "Name": "Healthcare"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 13,
+    "Name": "Hospitality"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 14,
+    "Name": "Industrial Wholesale"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 15,
+    "Name": "Janitorial & Maintenance"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 16,
+    "Name": "Life Sciences"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 17,
+    "Name": "Manufacturing"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 18,
+    "Name": "Specialty Retail"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 19,
+    "Name": "Supermarket"
+  },
+  {
+    "TableName": "Industry",
+    "Id": 20,
+    "Name": "Transportation & Warehouse"
+  },
+  {
+    "TableName": "ProgramType",
+    "Id": 1,
+    "Name": "Rental"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 1,
+    "Name": "Aprons"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 2,
+    "Name": "Cargo"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 3,
+    "Name": "Chef Coats"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 4,
+    "Name": "Chef Pants"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 5,
+    "Name": "Cook Shirts"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 6,
+    "Name": "Counter Coats"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 7,
+    "Name": "Denim"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 8,
+    "Name": "Dress Pants"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 9,
+    "Name": "Dress Shirts"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 10,
+    "Name": "Enhanced Visibility"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 11,
+    "Name": "Food Service"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 12,
+    "Name": "Healthcare Apparel"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 13,
+    "Name": "Jackets"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 14,
+    "Name": "Jeans"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 15,
+    "Name": "Lab Coats"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 16,
+    "Name": "Overalls"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 17,
+    "Name": "Polos"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 18,
+    "Name": "Scrub Pants"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 19,
+    "Name": "Scrub Tops"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 20,
+    "Name": "Shop Coats"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 21,
+    "Name": "Smocks"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 22,
+    "Name": "Speedsuits"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 23,
+    "Name": "Static Control / ESD Garments"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 24,
+    "Name": "Sweatshirts"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 25,
+    "Name": "T-Shirts"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 26,
+    "Name": "Tunics"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 27,
+    "Name": "Vests"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 28,
+    "Name": "Warm-Up Jackets"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 29,
+    "Name": "Work Pants"
+  },
+  {
+    "TableName": "SubCategory",
+    "Id": 30,
+    "Name": "Work Shirts"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 1,
+    "Name": "100% cotton"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 4,
+    "Name": "boot cut"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 5,
+    "Name": "button-down"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 6,
+    "Name": "canvas"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 7,
+    "Name": "chambray"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 8,
+    "Name": "color-block"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 9,
+    "Name": "flat front"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 10,
+    "Name": "flexwaist"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 2,
+    "Name": "Henley"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 11,
+    "Name": "hoodie"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 12,
+    "Name": "long sleeve"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 13,
+    "Name": "micro check"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 14,
+    "Name": "microfiber"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 15,
+    "Name": "mini check"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 16,
+    "Name": "motorsport"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 3,
+    "Name": "OilBlok"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 17,
+    "Name": "performance"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 18,
+    "Name": "pique"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 19,
+    "Name": "pleated"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 20,
+    "Name": "poplin"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 21,
+    "Name": "ripstop"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 22,
+    "Name": "security"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 23,
+    "Name": "short sleeve"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 24,
+    "Name": "striped"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 25,
+    "Name": "tactical"
+  },
+  {
+    "TableName": "Tag",
+    "Id": 26,
+    "Name": "technician"
+  }
+]

@@ -1,0 +1,27 @@
+trigger:
+  tags:
+    include:
+      - v*
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: "20.x"
+    displayName: Setup Node.js
+
+  - task: npmAuthenticate@0
+    inputs:
+      workingFile: .npmrc
+    displayName: Authenticate with Azure Artifacts
+
+  - script: |
+      npm install
+      npm run build
+    displayName: Install & Build
+
+  - script: |
+      npm publish
+    displayName: Publish to Azure Artifacts

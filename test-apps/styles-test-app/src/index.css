@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import 'tailwindcss';
+
+/* Scan files in this app */
+@source "../src/**/*.{js,ts,jsx,tsx}";
+
+@theme {
+  /* UniFirst Brand Colors */
+  --color-unifirst-green: #00B194;
+  --color-unifirst-green-dark: #009980;
+  --color-unifirst-green-light: #33C1A9;
+  --color-unifirst-green-lighter: #66D1BF;
+  --color-unifirst-green-lightest: #E6F9F5;
+
+  /* Neutral Palette */
+  --color-unifirst-gray-dark: #63666A;
+  --color-unifirst-gray-slate: #97999B;
+  --color-unifirst-gray-warm: #A7ACA2;
+  --color-unifirst-gray-light: #D9D9D6;
+  --color-unifirst-gray-lightest: #F5F5F4;
+
+  /* Semantic Colors */
+  --color-error: #DC2626;
+  --color-warning: #D97706;
+  --color-success: #00B194;
+  --color-info: #0284C7;
+
+  /* Fonts */
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-unifirst-gray-lightest text-unifirst-gray-dark antialiased font-sans;
+  }
+}
+
+@layer components {
+  .page-container {
+    @apply p-8;
+  }
+
+  .page-title {
+    @apply text-2xl font-semibold text-unifirst-gray-dark mb-2;
+  }
+
+  .page-description {
+    @apply text-unifirst-gray-slate mb-8;
+  }
+
+  .section-title {
+    @apply text-lg font-semibold text-unifirst-gray-dark mb-4;
+  }
+}

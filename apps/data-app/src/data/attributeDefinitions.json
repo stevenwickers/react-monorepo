@@ -1,0 +1,255 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-04",
+  "emptyValues": [null, "Blank", "x"],
+
+  "attributes": [
+    {
+      "id": "category",
+      "key": "Category",
+      "label": "Category",
+      "dataType": "multi-select",
+      "filterable": true,
+      "searchable": true,
+      "sortable": true,
+      "showInList": true,
+      "showInDetail": true,
+      "detailTab": "general",
+      "order": 1,
+      "display": {
+        "separator": " : ",
+        "badge": false
+      }
+    },
+    {
+      "id": "brand",
+      "key": "Brand",
+      "label": "Brand",
+      "dataType": "single-select",
+      "filterable": true,
+      "searchable": true,
+      "sortable": true,
+      "showInList": true,
+      "showInDetail": true,
+      "detailTab": "general",
+      "order": 2,
+      "display": {
+        "badge": false
+      }
+    },
+    {
+      "id": "programType",
+      "key": "Program Type",
+      "label": "Program Type",
+      "dataType": "multi-select",
+      "filterable": true,
+      "searchable": false,
+      "sortable": true,
+      "showInList": true,
+      "showInDetail": true,
+      "detailTab": "location",
+      "order": 1,
+      "display": {
+        "separator": " : ",
+        "badge": true,
+        "badgeColor": "teal"
+      }
+    },
+    {
+      "id": "subCategories",
+      "key": "Sub-Categories (filter)",
+      "label": "Sub-Categories",
+      "dataType": "multi-select",
+      "filterable": true,
+      "searchable": true,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "general",
+      "order": 3,
+      "display": {
+        "separator": " : ",
+        "badge": false
+      }
+    },
+    {
+      "id": "industry",
+      "key": "Industry",
+      "label": "Industry",
+      "dataType": "multi-select",
+      "filterable": true,
+      "searchable": true,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "relations",
+      "order": 2,
+      "display": {
+        "separator": " : ",
+        "badge": false
+      }
+    },
+    {
+      "id": "gender",
+      "key": "Gender",
+      "label": "Gender",
+      "dataType": "single-select",
+      "filterable": true,
+      "searchable": false,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "general",
+      "order": 4,
+      "display": {
+        "badge": false
+      }
+    },
+    {
+      "id": "country",
+      "key": "Country",
+      "label": "Country",
+      "dataType": "multi-select",
+      "filterable": true,
+      "searchable": false,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "location",
+      "order": 2,
+      "display": {
+        "separator": " : ",
+        "badge": false
+      }
+    },
+    {
+      "id": "fabric",
+      "key": "Fabric",
+      "label": "Fabric",
+      "dataType": "text",
+      "filterable": true,
+      "searchable": true,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "materials",
+      "order": 1,
+      "display": {
+        "badge": false
+      }
+    },
+    {
+      "id": "tags",
+      "key": "Tags/Attributes",
+      "label": "Tags & Attributes",
+      "dataType": "multi-select",
+      "filterable": true,
+      "searchable": true,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "relations",
+      "order": 3,
+      "display": {
+        "separator": " : ",
+        "badge": false
+      }
+    },
+    {
+      "id": "ansiClass",
+      "key": "ANSI Class",
+      "label": "ANSI Class",
+      "dataType": "single-select",
+      "filterable": true,
+      "searchable": false,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "safety",
+      "order": 1,
+      "display": {
+        "badge": false
+      }
+    },
+    {
+      "id": "cat",
+      "key": "CAT",
+      "label": "CAT",
+      "dataType": "single-select",
+      "filterable": true,
+      "searchable": false,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "safety",
+      "order": 2,
+      "display": {
+        "badge": false
+      }
+    },
+    {
+      "id": "catAtpv",
+      "key": "CAT (ATPV)",
+      "label": "CAT (ATPV)",
+      "dataType": "single-select",
+      "filterable": true,
+      "searchable": false,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "safety",
+      "order": 3,
+      "display": {
+        "badge": false
+      }
+    },
+    {
+      "id": "atpv",
+      "key": "ATPV",
+      "label": "ATPV",
+      "dataType": "text",
+      "filterable": true,
+      "searchable": false,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "safety",
+      "order": 4,
+      "display": {
+        "badge": false
+      }
+    },
+    {
+      "id": "certifications",
+      "key": "Certifications",
+      "label": "Certifications",
+      "dataType": "text",
+      "filterable": true,
+      "searchable": true,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "safety",
+      "order": 5,
+      "display": {
+        "badge": false
+      }
+    },
+    {
+      "id": "bodyPlacement",
+      "key": "Body Placement",
+      "label": "Body Placement",
+      "dataType": "single-select",
+      "filterable": true,
+      "searchable": false,
+      "sortable": false,
+      "showInList": false,
+      "showInDetail": true,
+      "detailTab": "general",
+      "order": 6,
+      "display": {
+        "badge": false
+      }
+    }
+  ]
+}
